@@ -40,6 +40,6 @@ st.subheader("Para facilitar a navegação o sistema foi divido em paginas que p
 st.divider()
 
 st.text(''' Ainda esta disponibilizado abaixo um link para acesso do drive com todos os arquivos utilizados para essa analize de dados''')
-url = 'https://drive.google.com/file/d/1VtMAssbLtbBPgEsvAnS_eH3W8Ga2DPWC/view?usp=sharing'
+url = 'https://drive.google.com/drive/folders/1nPPD9PivSLVOm4tQ4o4kwbnA2NGeuRan?usp=sharing'
 if st.button('Acessar Drive'):
     webbrowser.open(url)
