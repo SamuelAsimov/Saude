@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
+import webbrowser
 
 #setando a configuração da pagina
 st.set_page_config(layout='wide', page_title="Saude")
@@ -39,3 +40,6 @@ st.subheader("Para facilitar a navegação o sistema foi divido em paginas que p
 st.divider()
 
 st.text(''' Ainda esta disponibilizado abaixo um link para acesso do drive com todos os arquivos utilizados para essa analize de dados''')
+url = 'https://drive.google.com/file/d/1VtMAssbLtbBPgEsvAnS_eH3W8Ga2DPWC/view?usp=sharing'
+if st.button('Acessar Drive'):
+    webbrowser.open(url)
